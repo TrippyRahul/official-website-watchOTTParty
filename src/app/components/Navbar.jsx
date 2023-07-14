@@ -1,0 +1,73 @@
+"use client";
+
+import React, { useEffect, useState } from "react";
+import styles from "../styles/header.module.scss";
+import Button from "./Button";
+import Link from "next/link";
+
+const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    console.log(isOpen);
+  }, [isOpen]);
+  return (
+    <>
+      <nav className={styles.navbar}>
+        <ul className={styles.links}>
+          <li className={styles.logo}>
+            <Link href="/">
+              <img src="./footer-logo.svg" alt="ott-party" />
+            </Link>
+          </li>
+          <li className={styles.link}>
+            <Link href="/">Watch ott party</Link>
+          </li>
+          <li className={styles.link}>
+            <Link href="/features">Features</Link>
+          </li>
+          <li className={styles.link}>
+            <Link href="/how-it-works">How It Works</Link>
+          </li>
+          <li className={styles.link}>
+            <Link href="/support">Support</Link>
+          </li>
+        </ul>
+        <a href="#" className={styles.hideBtn}>
+          <Button />
+        </a>
+
+        <div
+          className={`${styles.mobileMenuBtn}  ${isOpen && styles.animate}`}
+          onClick={() => setIsOpen((prev) => !prev)}
+        >
+          <span className={`${styles.line} ${styles.firstLine}`}></span>
+          <span className={`${styles.line} ${styles.middleLine}`}></span>
+          <span className={`${styles.line} ${styles.lastLine}`}></span>
+        </div>
+      </nav>
+
+      {isOpen && (
+        <div className={styles.mobile}>
+          <ul className={styles.links}>
+            <li className={styles.link}>
+              <Link href="/">Watch ott party</Link>
+            </li>
+            <li className={styles.link}>
+              <Link href="/features">Features</Link>
+            </li>
+            <li className={styles.link}>
+              <Link href="/how-it-works">How It Works</Link>
+            </li>
+            <li className={styles.link}>
+              <Link href="/support">Support</Link>
+            </li>
+          </ul>
+          <Button />
+        </div>
+      )}
+    </>
+  );
+};
+
+export default Navbar;

@@ -1,0 +1,109 @@
+.about{
+    .container{
+        padding: 5rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 2rem;
+
+        .top{
+            display: flex;
+            gap: 5rem;
+
+            .left{
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 4rem;
+                flex-wrap: wrap;
+
+                .headings{
+                    h2{
+                        font-size: 4.7rem;
+                        font-weight: 700;
+                        line-height: 5.5rem;
+                        letter-spacing: 0em;
+                        text-align: left;
+
+                    }
+                }
+
+                .desc{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2rem;
+
+                    p{
+                        font-size: 2.5rem;
+                        font-weight: 400;
+                        line-height: 2.9rem;
+                        letter-spacing: 0em;
+                        text-align: left;
+
+                        span{
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+
+            .right{
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+
+                    
+                    img{
+                        width: 56.622rem;
+                        height: 60.052rem;
+                    }
+                
+            }
+
+        }
+
+        .bottom{
+            p{
+                font-size: 2.5rem;
+                font-weight: 400;
+                line-height: 2.9rem;
+                letter-spacing: 0em;
+                text-align: left;
+
+                span{
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .about{
+     .container{
+         .top{
+            flex-direction: column;
+
+            .right{
+                justify-content: center;
+            }
+         }
+     }
+    }
+ }
+ 
+ @media screen and (max-width: 480px) {
+    .about{
+        .container{
+            padding: 2rem;
+            .top{
+               flex-direction: column;
+   
+               .right{
+                   justify-content: center;
+               }
+            }
+        }
+       }
+ }

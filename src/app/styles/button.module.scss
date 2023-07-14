@@ -1,0 +1,22 @@
+.btn{
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
+    background: rgb(63,233,192);
+    background: linear-gradient(90deg, rgba(63,233,192,1) 0%, rgba(255,135,178,1) 100%);
+    border: none;
+    border-radius: 1rem;
+    color:#FFFFFF;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    transition: all .2s ease-in-out;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+
