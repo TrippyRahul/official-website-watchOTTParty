@@ -7,6 +7,10 @@
 
         .left{
             flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 2rem;
 
             .card{
                 background-color: #3FE9C021;
@@ -42,15 +46,10 @@
 
             .arrow{
             
+                width: 15rem;
                 display: flex;
                 align-items: center;
-                justify-content: flex-end;
-                padding: 2rem;
-
-                img{
-                    width: 7.7rem;
-
-                }
+                justify-content: center;
             }
         }
 

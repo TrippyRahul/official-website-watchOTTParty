@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/join.module.scss";
 import Button from "./Button";
+import Image from "next/image";
 
 const Join = () => {
   return (
@@ -11,11 +12,18 @@ const Join = () => {
             <h3>Install Watch ott party</h3>
             <p>
               To install Watch ott party, start off by clicking the
-              <span>"Install Watch ott party"</span> button on this page.
+              <span>&quot;Install Watch ott party&quot;</span> button on this page.
             </p>
           </div>
           <div className={styles.arrow}>
-            <img src="./arrow.svg" alt="arrow" />
+            <div className="image-container">
+              <Image
+                src="./arrow.svg"
+                alt="arrow"
+                fill={true}
+                className="image"
+              />
+            </div>
           </div>
         </div>
         <div className={styles.right}>
@@ -24,7 +32,7 @@ const Join = () => {
             Click on the party URL that will take you to the Netflix watch party
             website where you can watch Netflix together with your buddy. When
             you go to the website, you can instantly join the party. To do this,
-            click the "TP" icon next to the address bar.
+            click the &quot;TP&quot; icon next to the address bar.
           </p>
           <Button />
         </div>

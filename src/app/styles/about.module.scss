@@ -9,6 +9,7 @@
         .top{
             display: flex;
             gap: 5rem;
+            align-items: center;
 
             .left{
                 flex: 1;
@@ -48,9 +49,11 @@
             }
 
             .right{
+                flex: .5;
                 display: flex;
                 align-items: center;
                 justify-content: flex-end;
+                position: relative;
 
                     
                     img{

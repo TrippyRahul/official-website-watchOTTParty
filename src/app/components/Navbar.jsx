@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import styles from "../styles/header.module.scss";
 import Button from "./Button";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +18,14 @@ const Navbar = () => {
         <ul className={styles.links}>
           <li className={styles.logo}>
             <Link href="/">
-              <img src="./footer-logo.svg" alt="ott-party" />
+              <div className={styles['image-container']}>
+                <Image
+                  src="./footer-logo.svg"
+                  alt="ott-party"
+                  fill={true}
+                  className={styles['image']}
+                />
+              </div>
             </Link>
           </li>
           <li className={styles.link}>

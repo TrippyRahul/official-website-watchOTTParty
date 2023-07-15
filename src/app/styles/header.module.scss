@@ -17,10 +17,25 @@
 
         .logo{
             width: 17.8rem;
-            height: 7.2rem;
             z-index: 99;
             margin-right: 6rem;
-            // border: 1px solid red;
+            padding: 2rem;
+
+            .image-container {
+
+                width: 100%;
+              
+                > div {
+                  position: unset !important;
+                }
+              
+                .image {
+                  object-fit: contain;
+                  width: 100% !important;
+                  position: relative !important;
+                  height: unset !important;
+                }
+              }
 
             img{
                 width: 100%;
@@ -28,6 +43,7 @@
             }
         }
 
+       
         li{
             list-style: none;
         }

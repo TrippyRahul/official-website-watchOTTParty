@@ -3,6 +3,8 @@
 import React, { useState } from "react";
 import styles from "../styles/accordian.module.scss";
 import Button from "../components/Button";
+import Image from "next/image";
+
 
 const questions = [
   {
@@ -72,7 +74,7 @@ const questions = [
   },
   {
     id: 14,
-    ques: " What is a watch party?",
+    ques: "What is a watch party?",
     ans: "It is a tool where a group of people gather together to watch a movie or show at the same time, usually using a streaming platform, and share their reactions and comments with each other. It's like having a movie night with friends, but everyone watches from their own location and interacts online.",
   },
 ];
@@ -98,8 +100,8 @@ const Accordian = () => {
             <li key={question.id} onClick={() => toggleAnswer(question.id)}>
               <div className={styles.question}>
                 <p>{question.ques}</p>
-                <div className={styles.img}>
-                  <img src="./add-logo.svg" alt="add-logo" />
+                <div className={styles['image-container']}>
+                  <Image src="./add-logo.svg" alt="add-logo" fill={true} className={styles.image}/>
                 </div>
               </div>
               {showAnswer === question.id && (

@@ -38,6 +38,7 @@
                     flex-direction: row;
                     align-items: center;
                     justify-content: flex-start;
+                    padding-bottom: 1rem;
 
                     &>:first-child{
                         flex: 3;
@@ -49,7 +50,7 @@
                     }
 
                     &>:last-child{
-                        flex: .5;
+                        // flex: .5;
                         display: flex;
                         align-items: center;
                         justify-content: flex-end;
@@ -78,10 +79,20 @@
 
                
 
-                img{
-                    width: 5.0rem;
-                    height: 5.0rem;
-                }
+                .image-container {
+
+                    width: 5rem;
+                    > div {
+                      position: unset !important;
+                    }
+                  
+                    .image {
+                      object-fit: contain;
+                      width: 100% !important;
+                      position: relative !important;
+                      height: unset !important;
+                    }
+                  }
             }
         }
 

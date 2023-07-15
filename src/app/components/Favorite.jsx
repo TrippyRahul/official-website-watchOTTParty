@@ -1,12 +1,10 @@
 import React from "react";
 import styles from "../styles/favorite.module.scss";
+import Image from "next/image";
 
 const Favorite = () => {
   return (
     <div className={styles.favorite}>
-      <div className={styles.bg}>
-        <img src="./customize-bg.svg" alt="customize-bg" />
-      </div>
       <div className={styles.container}>
         <div className={styles.top}>
           <div className={styles.left}>
@@ -34,7 +32,7 @@ const Favorite = () => {
               </div>
               <div className={styles.desc}>
                 <p>
-                  If you are watching a movie with your loved one, it's just you
+                  If you are watching a movie with your loved one, it&apos;s just you
                   need to log in at the same time. So that you can take
                   advantage of fast buffering and HD video quality in all of
                   your watch Ott party on your desktop. Watch Ottparty is the
@@ -45,14 +43,36 @@ const Favorite = () => {
             </div>
           </div>
           <div className={styles.right}>
-            <img src="./favorite.svg" alt="favorite" />
+            <div className="image-container">
+              <Image
+                src="./favorite.svg"
+                alt="favorite"
+                fill={true}
+                className="image"
+              />
+            </div>
           </div>
         </div>
 
         <div className={styles.bottom}>
           <div className={styles["bottom-left"]}>
-            <div className={styles.img}>
-              <img src="./customize.svg" alt="customize" />
+            <div className={styles.bg}>
+              <div className={styles["bg-image-container"]}>
+                <Image
+                  src="./customize-bg.svg"
+                  alt="customize-bg"
+                  fill={true}
+                  className={styles["bg-image"]}
+                />
+              </div>
+            </div>
+            <div className="image-container">
+              <Image
+                src="./customize.svg"
+                alt="customize"
+                fill={true}
+                className="image"
+              />
             </div>
           </div>
           <div className={styles["bottom-right"]}>
