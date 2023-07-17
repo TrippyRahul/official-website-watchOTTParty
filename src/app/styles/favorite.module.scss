@@ -100,7 +100,6 @@
                 position: relative;
                 // padding: 5rem 0rem;
 
-                // border: 1px solid red;
             }
             .bottom-right{
                 z-index: 99;
@@ -177,8 +176,13 @@
 @media screen and (max-width: 480px) {
  .favorite{
     .container{
-        .top{
-            padding: 2rem;
+        // padding: 2rem;
+
+        .bottom{
+            .bottom-left{
+                // border: 1px solid red;
+                padding: 4rem;
+            }
         }
     }
  }  

@@ -29,7 +29,7 @@ const Work = () => {
                 <p>Pin watch Ott party</p>
                 <div
                   className="image-container"
-                  style={{ width: "10rem", marginBottom: "-.5rem" }}
+                  style={{ width: "10rem", marginBottom: "-.2rem" }}
                 >
                   <Image
                     fill={true}
@@ -60,7 +60,7 @@ const Work = () => {
                 <p>Create watch Ott party</p>
                 <div
                   className="image-container"
-                  style={{ width: "10rem", marginBottom: "-.5rem" }}
+                  style={{ width: "10rem", marginBottom: "-.2rem" }}
                 >
                   <Image
                     fill={true}

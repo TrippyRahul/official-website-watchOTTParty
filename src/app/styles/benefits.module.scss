@@ -88,12 +88,8 @@
     .container{
         justify-content: center;
         flex-direction: column;
-        gap: 0rem;
         .left{
-            .img{
-                width: 49.2rem;
-                height: 58.1rem;
-            }
+           
         }
     }
    }
@@ -104,7 +100,7 @@
   @media screen and (max-width: 480px) {
     .benefits{
         .container{
-            padding: 2rem;
+            padding: 4rem;
 
         }
        }

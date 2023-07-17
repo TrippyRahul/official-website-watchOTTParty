@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Benefits from "./components/Benefits";
 import Favorite from "./components/Favorite";
 import Work from "./components/Work";

@@ -94,18 +94,3 @@
 
   }
 }
-
-@media screen and (max-width: 480px) {
-  .about{
-      .container{
-          padding: 2rem;
-          .top{
-             flex-direction: column;
- 
-             .right{
-                 justify-content: center;
-             }
-          }
-      }
-     }
-}

@@ -18,12 +18,12 @@ const Navbar = () => {
         <ul className={styles.links}>
           <li className={styles.logo}>
             <Link href="/">
-              <div className={styles['image-container']}>
+              <div className={styles["image-container"]}>
                 <Image
                   src="./footer-logo.svg"
                   alt="ott-party"
                   fill={true}
-                  className={styles['image']}
+                  className={styles["image"]}
                 />
               </div>
             </Link>
@@ -57,6 +57,16 @@ const Navbar = () => {
 
       {isOpen && (
         <div className={styles.mobile}>
+          <Link href="/">
+            <div className={styles["image-container"]}>
+              <Image
+                src="./footer-logo.svg"
+                alt="ott-party"
+                fill={true}
+                className={styles["image"]}
+              />
+            </div>
+          </Link>
           <ul className={styles.links}>
             <li className={styles.link}>
               <Link href="/">Watch ott party</Link>
