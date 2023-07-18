@@ -43,12 +43,12 @@ const Favorite = () => {
             </div>
           </div>
           <div className={styles.right}>
-            <div className="image-container">
+            <div className={styles['image-container']}>
               <Image
                 src="./favorite.svg"
                 alt="favorite"
                 fill={true}
-                className="image"
+                className={styles.image}
               />
             </div>
           </div>
@@ -66,12 +66,12 @@ const Favorite = () => {
                 />
               </div>
             </div>
-            <div className="image-container">
+            <div className={styles['image-container']}>
               <Image
                 src="./customize.svg"
                 alt="customize"
                 fill={true}
-                className="image"
+                className={styles.image}
               />
             </div>
           </div>

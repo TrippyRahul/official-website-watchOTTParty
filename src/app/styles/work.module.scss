@@ -33,6 +33,7 @@
                   justify-content: flex-end;
                   flex-direction: column;
                   gap: 2rem;
+                  position: relative;
 
                   p{
                     font-size: 2.5rem;
@@ -41,9 +42,25 @@
                     letter-spacing: 0em;
                     text-align: left;
                   }
+
+                  .image-container {
+
+                    width: 10rem;
+                    > div {
+                      position: unset !important;
+                    }
+                  
+                    .image {
+                      object-fit: contain;
+                      width: 100% !important;
+                      position: relative !important;
+                      height: unset !important;
+                    }
+                  }
                 }
 
                 .second{
+                  position: relative;
                   border-top: .1rem solid gray;
                   height: 50%;
                   display: flex;
@@ -51,7 +68,21 @@
                   justify-content: flex-start;
                   flex-direction: column;
                   gap: 2rem;
+                  
+                  .image-container {
 
+                    width: 10rem;
+                    > div {
+                      position: unset !important;
+                    }
+                  
+                    .image {
+                      object-fit: contain;
+                      width: 100% !important;
+                      position: relative !important;
+                      height: unset !important;
+                    }
+                  }
                   
                   p{
                     font-size: 2.5rem;

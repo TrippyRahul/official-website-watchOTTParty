@@ -16,12 +16,12 @@ const Join = () => {
             </p>
           </div>
           <div className={styles.arrow}>
-            <div className="image-container">
+            <div className={styles['image-container']}>
               <Image
                 src="./arrow.svg"
                 alt="arrow"
                 fill={true}
-                className="image"
+                className={styles.image}
               />
             </div>
           </div>

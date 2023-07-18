@@ -13,10 +13,10 @@ const Work = () => {
             <div className={styles.item}>
               <div className={styles.first}></div>
               <div className={styles.second}>
-                <div className="image-container" style={{ width: "10rem" }}>
+                <div className={styles['image-container']} >
                   <Image
                     fill={true}
-                    className="image"
+                    className={styles.image}
                     src="./semi-circle1.svg"
                     alt="semi-circle"
                   />
@@ -28,12 +28,11 @@ const Work = () => {
               <div className={styles.first}>
                 <p>Pin watch Ott party</p>
                 <div
-                  className="image-container"
-                  style={{ width: "10rem", marginBottom: "-.2rem" }}
+                  className={styles['image-container']} style={{marginBottom:"-.6rem"}}
                 >
                   <Image
                     fill={true}
-                    className="image"
+                   className={styles.image}
                     src="./semi-circle2.svg"
                     alt="semi-circle"
                   />
@@ -44,10 +43,10 @@ const Work = () => {
             <div className={styles.item}>
               <div className={styles.first}></div>
               <div className={styles.second}>
-                <div className="image-container" style={{ width: "10rem" }}>
+                <div className={styles['image-container']} >
                   <Image
                     fill={true}
-                    className="image"
+                   className={styles.image}
                     src="./semi-circle1.svg"
                     alt="semi-circle"
                   />
@@ -59,12 +58,12 @@ const Work = () => {
               <div className={styles.first}>
                 <p>Create watch Ott party</p>
                 <div
-                  className="image-container"
-                  style={{ width: "10rem", marginBottom: "-.2rem" }}
+                  className={styles['image-container']}
+                  style={{marginBottom:"-.6rem"}}
                 >
                   <Image
                     fill={true}
-                    className="image"
+                   className={styles.image}
                     src="./semi-circle2.svg"
                     alt="semi-circle"
                   />
@@ -75,10 +74,10 @@ const Work = () => {
             <div className={styles.item}>
               <div className={styles.first}></div>
               <div className={styles.second}>
-                <div className="image-container" style={{ width: "10rem" }}>
+                <div className={styles['image-container']} >
                   <Image
                     fill={true}
-                    className="image"
+                   className={styles.image}
                     src="./semi-circle1.svg"
                     alt="semi-circle"
                   />

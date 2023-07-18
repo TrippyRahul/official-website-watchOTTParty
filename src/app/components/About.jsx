@@ -32,12 +32,12 @@ const About = () => {
             </div>
           </div>
           <div className={styles.right}>
-            <div className="image-container">
+            <div className={styles['image-container']}>
               <Image
                 src="./about.svg"
                 alt="about"
                 fill={true}
-                className="image"
+                className={styles.image}
               />
             </div>
           </div>
