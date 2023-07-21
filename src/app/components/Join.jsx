@@ -29,8 +29,8 @@ const Join = () => {
         <div className={styles.right}>
           <h2>How to join watch Ott party</h2>
           <p>
-            Click on the party URL that will take you to the Netflix watch party
-            website where you can watch Netflix together with your buddy. When
+            Click on the party URL that will take you to the <span> Netflix watch party
+            website </span> where you can watch Netflix together with your buddy. When
             you go to the website, you can instantly join the party. To do this,
             click the &quot;TP&quot; icon next to the address bar.
           </p>

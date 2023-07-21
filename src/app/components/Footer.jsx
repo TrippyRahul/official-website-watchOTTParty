@@ -5,7 +5,6 @@ import { BsFacebook } from "react-icons/bs";
 import { AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai";
 import Link from "next/link";
 
-
 const Footer = () => {
   return (
     <div className={styles.footer}>
@@ -27,7 +26,7 @@ const Footer = () => {
               watch party, Hulu watch party, amazon watch party, movies on
               paramount plus, peacock watch party, youtube watch party, viewing
               party, Netflix share play, movie night streaming, watching room,
-              teleparty extension
+              teleparty extension, live star sports
             </p>
           </div>
           <ul>

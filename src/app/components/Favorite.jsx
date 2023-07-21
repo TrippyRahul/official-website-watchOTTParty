@@ -21,8 +21,8 @@ const Favorite = () => {
                   download watch OTT party on Netflix Teleparty, amazon,
                   YouTube, Hulu, Disney Plus, HBO,{" "}
                   <span>peacock watch party</span>, and Amazon Prime websites.
-                  By creating your own<span> watching room</span>, you can share
-                  your favorite show with your family and friends.
+                  By creating your own<span> watching room </span>, you can
+                  share your favorite show with your family and friends.
                 </p>
               </div>
             </div>
@@ -32,8 +32,8 @@ const Favorite = () => {
               </div>
               <div className={styles.desc}>
                 <p>
-                  If you are watching a movie with your loved one, it&apos;s just you
-                  need to log in at the same time. So that you can take
+                  If you are watching a movie with your loved one, it&apos;s
+                  just you need to log in at the same time. So that you can take
                   advantage of fast buffering and HD video quality in all of
                   your watch Ott party on your desktop. Watch Ottparty is the
                   best extension as compared to the{" "}
@@ -43,7 +43,7 @@ const Favorite = () => {
             </div>
           </div>
           <div className={styles.right}>
-            <div className={styles['image-container']}>
+            <div className={styles["image-container"]}>
               <Image
                 src="./favorite.svg"
                 alt="favorite"
@@ -66,7 +66,7 @@ const Favorite = () => {
                 />
               </div>
             </div>
-            <div className={styles['image-container']}>
+            <div className={styles["image-container"]}>
               <Image
                 src="./customize.svg"
                 alt="customize"
@@ -87,7 +87,7 @@ const Favorite = () => {
               </p>
               <p>
                 Compared to<span> the teleparty extension</span>, it will allow
-                you to make your own watching room So that you can enjoy your
+                you to make your own <span> watching room </span> So that you can enjoy your
                 best series at Amazon.
               </p>
             </div>

@@ -13,7 +13,7 @@ const About = () => {
             </div>
             <div className={styles.desc}>
               <p>
-                Ott<span> watchparty</span> is a browser extension that allows
+                Ott <span> watchparty </span>is a browser extension that allows
                 users to enjoy movies and series simultaneously with their soul
                 mates. Even if you are geographically separated, you can enjoy
                 your favorite shows with watch ott a party. With the chat
@@ -32,7 +32,7 @@ const About = () => {
             </div>
           </div>
           <div className={styles.right}>
-            <div className={styles['image-container']}>
+            <div className={styles["image-container"]}>
               <Image
                 src="./about.svg"
                 alt="about"

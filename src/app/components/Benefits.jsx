@@ -8,7 +8,7 @@ const Benefits = () => {
     <div className={styles.benefits}>
       <div className={styles.container}>
         <div className={styles.left}>
-          <div className={styles['image-container']}>
+          <div className={styles["image-container"]}>
             <Image
               src="./benefits.svg"
               alt="benefits"
@@ -34,13 +34,13 @@ const Benefits = () => {
                 You can chat while enjoying the watch Ott party because it
                 synchronizes the playback and features a chat option, where you
                 have a chat with your mate without getting disturbed. It is
-                compatible with well-known <span> party streaming </span>
-                services including Netflix,
-                <span> movies on paramount plus</span>, amazon, Disney plus,
-                Hulu, peacock, youtube, and HBO max. You can enjoy a virtual
-                movie night with your long-distance special one. Plus, the best
-                part is that you can create your own <span>watching room</span>
-                without getting interrupted.
+                compatible with well-known <span> party streaming </span> services
+                including Netflix, <span> movies on paramount plus, </span>{" "}
+                amazon, Disney Plus, Hulu, peacock, youtube, and{" "}
+                <span> hbomax Party. </span>
+                You can enjoy a virtual movie night with your long-distance
+                special one. Plus, the best part is that you can create your own
+                <span> watching room </span> without getting interrupted.
               </p>
             </div>
             <div className={styles.btn}>
