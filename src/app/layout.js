@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import "./globals.css";
 
 export const metadata = {
-  title: "Watch OTT Party",
+  title: "Unite for movie hubs at your own watching room.",
   description:
     "Watch ottparty for virtual movie nights with friends. Create special memories with long-distance loved ones and your own watching room.",
 };
@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
 
         <meta property="og:url" content="https://www.watchottparty.com/" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Watch OTT Party" />
+        <meta property="og:title" content="Unite for movie hubs at your own watching room." />
         <meta
           property="og:description"
           content="Watch ottparty for virtual movie nights with friends. Create special memories with long-distance loved ones and your own watching room."
@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="watchottparty.com" />
         <meta property="twitter:url" content="https://www.watchottparty.com/" />
-        <meta name="twitter:title" content="Watch OTT Party" />
+        <meta name="twitter:title" content="Unite for movie hubs at your own watching room." />
         <meta
           name="twitter:description"
           content="Watch ottparty for virtual movie nights with friends. Create special memories with long-distance loved ones and your own watching room."
