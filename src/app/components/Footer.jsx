@@ -22,11 +22,40 @@ const Footer = () => {
         <div className={styles.content}>
           <div className={styles["popular-searches"]}>
             <p>
-              <span>Popular searches:</span> HBO Max watch party, Disney Plus
-              watch party, Hulu watch party, amazon watch party, movies on
-              paramount plus, peacock watch party, youtube watch party, viewing
-              party, Netflix share play, movie night streaming, watching room,
-              teleparty extension, live star sports
+              <span>Popular searches:</span>{" "}
+              <a href="https://www.hbomaxparty.net/" target="_blank">
+                {" "}
+                HBO Max watch party{" "}
+              </a>
+              ,{" "}
+              <a href="https://www.disneyhotstarparty.com/" target="_blank">
+                Disney Plus watch party
+              </a>
+              ,
+              <a href="https://www.huluwatchparty.co/" target="_blank">
+                {" "}
+                Hulu watch party
+              </a>
+              ,{" "}
+              <a href="https://www.amazonprimeparty.com/" target="_blank">
+                {" "}
+                amazon watch party
+              </a>
+              , movies on paramount plus,{" "}
+              <a href="https://www.peacockparty.net/" target="_blank">
+                peacock watch party
+              </a>
+              ,{" "}
+              <a href="https://www.youtubeparty.com/" target="_blank">
+                youtube watch party
+              </a>
+              , viewing party, Netflix share play, movie night streaming,
+              watching room,{" "}
+              <a href="https://www.teleparty.pro/" target="_blank">
+                {" "}
+                teleparty extension
+              </a>
+              , live star sports
             </p>
           </div>
           <ul>
