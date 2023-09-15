@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Favorite = () => {
   return (
-    <div className={styles.favorite}>
+    <div className={styles.favorite} id="features">
       <div className={styles.container}>
         <div className={styles.top}>
           <div className={styles.left}>
@@ -45,7 +45,7 @@ const Favorite = () => {
           <div className={styles.right}>
             <div className={styles["image-container"]}>
               <Image
-                src="./favorite.svg"
+                src="/favorite.svg"
                 alt="favorite"
                 fill={true}
                 className={styles.image}
@@ -59,7 +59,7 @@ const Favorite = () => {
             <div className={styles.bg}>
               <div className={styles["bg-image-container"]}>
                 <Image
-                  src="./customize-bg.svg"
+                  src="/customize-bg.svg"
                   alt="customize-bg"
                   fill={true}
                   className={styles["bg-image"]}
@@ -68,7 +68,7 @@ const Favorite = () => {
             </div>
             <div className={styles["image-container"]}>
               <Image
-                src="./customize.svg"
+                src="/customize.svg"
                 alt="customize"
                 fill={true}
                 className={styles.image}

@@ -1,0 +1,28 @@
+.blog{
+    padding: 10rem 4rem;
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+
+        h1{
+            font-size: 4rem;
+            text-align: center;
+        }
+
+        .para{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+
+            h4{
+                font-size: 2.5rem;
+            }
+
+            p{
+                font-size: 2.2rem;
+            }
+        }
+    }
+}

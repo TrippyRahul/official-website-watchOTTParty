@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Work = () => {
   return (
-    <div className={styles.work}>
+    <div className={styles.work} id="how-it-works">
       <div className={styles.container}>
         <h2 id="work">How Ott watch party works</h2>
 
@@ -17,7 +17,7 @@ const Work = () => {
                   <Image
                     fill={true}
                     className={styles.image}
-                    src="./semi-circle1.svg"
+                    src="/semi-circle1.svg"
                     alt="semi-circle"
                   />
                 </div>
@@ -33,7 +33,7 @@ const Work = () => {
                   <Image
                     fill={true}
                    className={styles.image}
-                    src="./semi-circle2.svg"
+                    src="/semi-circle2.svg"
                     alt="semi-circle"
                   />
                 </div>
@@ -47,7 +47,7 @@ const Work = () => {
                   <Image
                     fill={true}
                    className={styles.image}
-                    src="./semi-circle1.svg"
+                    src="/semi-circle1.svg"
                     alt="semi-circle"
                   />
                 </div>
@@ -64,7 +64,7 @@ const Work = () => {
                   <Image
                     fill={true}
                    className={styles.image}
-                    src="./semi-circle2.svg"
+                    src="/semi-circle2.svg"
                     alt="semi-circle"
                   />
                 </div>
@@ -78,7 +78,7 @@ const Work = () => {
                   <Image
                     fill={true}
                    className={styles.image}
-                    src="./semi-circle1.svg"
+                    src="/semi-circle1.svg"
                     alt="semi-circle"
                   />
                 </div>

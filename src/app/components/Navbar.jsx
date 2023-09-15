@@ -20,7 +20,7 @@ const Navbar = () => {
             <Link href="/">
               <div className={styles["image-container"]}>
                 <Image
-                  src="./footer-logo.svg"
+                  src="/logo.svg"
                   alt="ott-party"
                   fill={true}
                   className={styles["image"]}
@@ -32,10 +32,13 @@ const Navbar = () => {
             <Link href="/">Watch ott party</Link>
           </li>
           <li className={styles.link}>
-            <Link href="/features">Features</Link>
+            <Link href="#features">Features</Link>
           </li>
           <li className={styles.link}>
-            <Link href="/how-it-works">How It Works</Link>
+            <Link href="#how-it-works">How It Works</Link>
+          </li>
+          <li className={styles.link}>
+            <Link href="/blogs">Blogs</Link>
           </li>
           <li className={styles.link}>
             <Link href="/support">Support</Link>
@@ -60,7 +63,7 @@ const Navbar = () => {
           <Link href="/">
             <div className={styles["image-container"]}>
               <Image
-                src="./footer-logo.svg"
+                src="/logo.svg"
                 alt="ott-party"
                 fill={true}
                 className={styles["image"]}
@@ -72,10 +75,13 @@ const Navbar = () => {
               <Link href="/">Watch ott party</Link>
             </li>
             <li className={styles.link}>
-              <Link href="/features">Features</Link>
+              <Link href="#features">Features</Link>
             </li>
             <li className={styles.link}>
-              <Link href="/how-it-works">How It Works</Link>
+              <Link href="#how-it-works">How It Works</Link>
+            </li>
+            <li className={styles.link}>
+              <Link href="/blogs">Blogs</Link>
             </li>
             <li className={styles.link}>
               <Link href="/support">Support</Link>

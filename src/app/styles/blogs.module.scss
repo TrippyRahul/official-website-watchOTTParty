@@ -1,0 +1,45 @@
+.blogs{
+    padding: 10rem 4rem;
+
+    .container{
+        display: flex;  
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 4rem;
+
+        .card{
+            width: 100%;
+            border: 1px solid rgba(245, 245, 245, 0.418);
+            padding: 3.4rem;
+            cursor: pointer;
+
+            .profile{
+                span{
+                    font-size: 1.5rem;
+                }
+            }
+
+            .card-title{
+                h3{
+                    font-size: 2.5rem;
+                }
+
+                p{
+                    font-size: 2rem;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                }
+            }
+
+            .card-desc{
+                span{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}

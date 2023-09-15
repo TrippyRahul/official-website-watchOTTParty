@@ -18,7 +18,7 @@ const Join = () => {
           <div className={styles.arrow}>
             <div className={styles['image-container']}>
               <Image
-                src="./arrow.svg"
+                src="/arrow.svg"
                 alt="arrow"
                 fill={true}
                 className={styles.image}

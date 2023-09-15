@@ -101,7 +101,7 @@ const Accordian = () => {
                 <p>{question.ques}</p>
                 <div className={styles["image-container"]}>
                   <Image
-                    src="./add-logo.svg"
+                    src="/add-logo.svg"
                     alt="add-logo"
                     fill={true}
                     className={styles.image}
