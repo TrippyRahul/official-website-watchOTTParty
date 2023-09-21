@@ -30,8 +30,10 @@ const Hero = () => {
         <div className={styles.content}>
           <div className={styles["inner-container"]}>
             <div className={styles.headings}>
-              <h2>Enjoy movies together and create your own watch party at</h2>
-              <h1>Watch Ott party</h1>
+              <h1>
+                Enjoy movies together and create your own watch party at <br />{" "}
+                Watch Ott party
+              </h1>
             </div>
             <div className={styles.text}>
               <p>
