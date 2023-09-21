@@ -16,6 +16,10 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" type="image/x-icon" href="/logo.svg" />
         <link rel="canonical" href="https://www.watchottparty.com/" />
+        <meta
+          name="google-site-verification"
+          content="lgQlCIsl3TMop-dMHvoYFsD3Ny40etp65BpD2uV_QTs"
+        />
 
         <meta property="og:url" content="https://www.watchottparty.com/" />
         <meta property="og:type" content="website" />
