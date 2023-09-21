@@ -5,27 +5,27 @@ import Image from "next/image";
 const data = [
   {
     id: 1,
-    img: "/netflix.png",
+    img: "/netflix.svg",
   },
   {
     id: 2,
-    img: "/hulu.png",
+    img: "/hulu.svg",
   },
   {
     id: 3,
-    img: "/hotstar.png",
+    img: "/hotstar.svg",
   },
   {
     id: 4,
-    img: "/prime.png",
+    img: "/prime.svg",
   },
   {
     id: 5,
-    img: "/youtube.png",
+    img: "/youtube.svg",
   },
   {
     id: 5,
-    img: "/hbo.png",
+    img: "/hbo.svg",
   },
 ];
 

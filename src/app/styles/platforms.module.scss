@@ -45,6 +45,11 @@ $large: 1024px;
 
       }
 
+      @include for-greater-than-large(){
+        grid-template-columns: repeat(6, 1fr);
+
+      }
+
       .card{
         // box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.315);
         border: 1px solid rgba(128, 128, 128, 0.342);

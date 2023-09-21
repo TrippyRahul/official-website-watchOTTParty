@@ -17,13 +17,15 @@ const Join = () => {
             </p>
           </div>
           <div className={styles.arrow}>
-            <div className={styles["image-container"]}>
-              <Image
-                src="/arrow.svg"
-                alt="arrow"
-                fill={true}
-                className={styles.image}
-              />
+            <div className={styles[`arrow-container`]}>
+              <div className={styles["image-container"]}>
+                <Image
+                  src="/arrow.svg"
+                  alt="arrow"
+                  fill={true}
+                  className={styles.image}
+                />
+              </div>
             </div>
           </div>
           <div className={styles.card2}>
