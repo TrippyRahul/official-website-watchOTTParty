@@ -39,7 +39,7 @@ const Platforms = () => {
             <div className={styles["image-container"]}>
               <Image
                 src={platform.img}
-                alt="benefits"
+                alt={platform.img}
                 fill={true}
                 className={styles.image}
               />

@@ -12,10 +12,10 @@ export default function Home() {
     <>
       <Header />
       <Platforms />
-      <Benefits />
-      <Favorite />
       <Work />
       <Join />
+      <Benefits />
+      <Favorite />
       <About />
       <Accordian />
     </>
