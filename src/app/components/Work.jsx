@@ -5,31 +5,24 @@ import styles from "../styles/work.module.scss";
 import Image from "next/image";
 
 const steps = [
-  { id: 1, text: "Install the extension to your Firefox browser" },
+  { id: 1, text: "Install watch Ott party" },
   {
     id: 2,
-    text: " Now go to any of your favorite streaming platforms like Netflix, Disney Plus, and many more to select the show which you want to watch.",
+    text: "Pin watch Ott party",
   },
   {
     id: 3,
-    text: "Start playing the video and click on the teleparty icon",
+    text: "Open a video",
   },
   {
     id: 4,
-    text: " Generate a unique party link ",
+    text: "Create watch Ott party ",
   },
   {
     id: 5,
-    text: " Share the link with your friends and family",
+    text: " Join in watch Ott party",
   },
-  {
-    id: 6,
-    text: "Join the party",
-  },
-  {
-    id: 7,
-    text: "It has amazing features including chat, audio, and video calls ",
-  },
+  
 ];
 
 const Work = () => {
