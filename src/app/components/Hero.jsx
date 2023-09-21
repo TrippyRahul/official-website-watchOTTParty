@@ -30,21 +30,20 @@ const Hero = () => {
         <div className={styles.content}>
           <div className={styles["inner-container"]}>
             <div className={styles.headings}>
-              <h2>
-                Enjoy movies together and create your own watching room at{" "}
-              </h2>
+              <h2>Enjoy movies together and create your own watch party at</h2>
               <h1>Watch Ott party</h1>
             </div>
             <div className={styles.text}>
               <p>
-                Watch ottparty is a new way to watch movies and series together
-                with friends.
+                Have a blast watching movies and shows together with the Watch
+                Ott party and create your own watch party to chat and enjoy the
+                fun with friends in real-time.
               </p>
-              <p>
+              {/* <p>
                 You can enjoy a virtual movie night with your long-distance
                 special one and create your special memory with them. Plus, you
                 can create your own watching room.
-              </p>
+              </p> */}
             </div>
             <div className={styles.btn}>
               <Button />
