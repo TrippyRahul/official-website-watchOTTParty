@@ -6,6 +6,7 @@ import About from "./components/About";
 import Accordian from "./components/Accordian";
 import Header from "./components/Header";
 import Platforms from "./components/Platforms";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Favorite />
       <About />
       <Accordian />
+      <Footer />
     </>
   );
 }

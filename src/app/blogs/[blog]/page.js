@@ -4,6 +4,7 @@ import React from "react";
 import styles from "@/app/styles/blog.module.scss";
 import Navbar from "@/app/components/Navbar";
 import Header from "@/app/components/Header";
+import Footer from "@/app/components/Footer";
 
 const data = [];
 
@@ -33,6 +34,7 @@ const page = () => {
           ))}
         </div>
       </div> */}
+      <Footer />
     </>
   );
 };
