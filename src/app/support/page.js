@@ -21,9 +21,11 @@ const Support = () => {
         (result) => {
           console.log(result);
           console.log(result.text);
+          alert("Message sent successfully!");
         },
         (error) => {
           console.log(error.text);
+          alert("Something went wrong! please try again");
         }
       );
     e.target.reset();
