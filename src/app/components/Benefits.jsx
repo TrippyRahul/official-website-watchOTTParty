@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/benefits.module.scss";
-import Button from "./Button";
+import Button from "@/app/components/Button";
 import Image from "next/image";
 
 const Benefits = () => {
@@ -34,10 +34,10 @@ const Benefits = () => {
                 You can chat while enjoying the watch Ott party because it
                 synchronizes the playback and features a chat option, where you
                 have a chat with your mate without getting disturbed. It is
-                compatible with well-known <span> party streaming </span> services
-                including Netflix, <span> movies on paramount plus, </span>{" "}
-                amazon, Disney Plus, Hulu, peacock, youtube, and{" "}
-                <span> hbomax Party. </span>
+                compatible with well-known <span> party streaming </span>{" "}
+                services including Netflix,{" "}
+                <span> movies on paramount plus, </span> amazon, Disney Plus,
+                Hulu, peacock, youtube, and <span> hbomax Party. </span>
                 You can enjoy a virtual movie night with your long-distance
                 special one. Plus, the best part is that you can create your own
                 <span> watching room </span> without getting interrupted.
