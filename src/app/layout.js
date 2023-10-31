@@ -34,6 +34,7 @@ export default function RootLayout({ children }) {
         />
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-VNQGEVQ308" />
         <Script
+          id="gtm-script"
           dangerouslySetInnerHTML={{
             __html: `
             window.dataLayer = window.dataLayer || [];
