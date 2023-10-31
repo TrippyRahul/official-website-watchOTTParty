@@ -2,6 +2,7 @@ import Schema from "./Schema";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import "./globals.css";
+import Script from "next/script";
 
 export const metadata = {
   title:
@@ -30,6 +31,17 @@ export default function RootLayout({ children }) {
         <meta
           name="google-site-verification"
           content="lgQlCIsl3TMop-dMHvoYFsD3Ny40etp65BpD2uV_QTs"
+        />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-VNQGEVQ308" />
+        <Script
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-VNQGEVQ308');
+          `,
+          }}
         />
       </head>
       <body>
